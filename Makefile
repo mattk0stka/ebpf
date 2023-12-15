@@ -14,5 +14,5 @@ $(TARGETS): %: %.bpf.o
 
 clean: 
 	- rm *.bpf.o
-	- rm -f /sys/fs/bpf/hello 
-	- rm -f /sys/fs/bpf/hello-func
+	- rm -f /sys/fs/bpf/network 
+	- rm -f /sys/fs/bpf/network-func
